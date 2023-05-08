@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        margin: 0;
+    }
+
+    p {
+        margin: 0;
+        font-family: arial;
+    }
+
+    .sidebar {
+        background-color: blue;
+        position: fixed;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100px;
+    }
+
+    .overlay-background {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        align-items: center;
+        background-color: rgba(0,0,0,0.9);
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .overlay-box {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        padding-left: 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 350px;
+        border-radius: 8px;
+    }
+
+    .title {
+        font-weight: bold;
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+
+    .description {
+        font-size: 14px;
+        padding-bottom: 12px;
+    }
+
+    button {
+        width: 50px;
+    }
+</style>
+<body>
+    <div class = "sidebar">
+        right sidebar
+    </div>
+    <div class = "overlay-background">
+        <div class = "overlay-box">
+            <p class = "title">
+                Modal Title
+            </p>
+            <p class = "description">
+                This is a modal
+            </p>
+            <button>
+                Close
+            </button>
+        </div>
+    </div>
+</body>
+</html>
