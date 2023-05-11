@@ -1,0 +1,119 @@
+.signup-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 72px;
+    z-index: 100;
+    
+    background-color: rgb(29, 155, 240);
+
+    display: flex;
+    align-items: center;
+}
+
+.space {
+    flex: 1;
+}
+
+@media (min-width: 1150px) {
+    
+}
+.overlay-text {
+    margin-right: 490px;
+}
+
+.overlay-text-1 {
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.overlay-text-2 {
+    color: white;
+    font-size: 15px;
+}
+
+.overlay-buttons {
+    flex: 1;
+    max-width: 250px;
+}
+
+.login-button {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(29, 155, 240);
+    
+    border: solid;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.35);
+    border-radius: 20px;
+    padding: 8px 15px 8px 15px;
+    margin-right: 8px;
+
+    transition: background-color 0.5s;
+}
+.login-button:hover {
+    cursor: pointer;
+    background-color: rgb(80, 173, 235);
+}
+
+.signup-button {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white;
+    
+    border: none;
+    border-radius: 20px;
+    padding: 8px 15px 8px 15px;
+
+    transition: background-color 0.5s;
+}
+.signup-button:hover {
+    cursor: pointer;
+    background-color: rgb(212, 207, 207);
+}
+
+@media (max-width: 1150px) {
+    .overlay-text {
+        margin-right: 75px;
+    }
+
+    .overlay-buttons {
+        flex: 1;
+        max-width: 500px;
+    }
+
+    .space {
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 750px) {
+    .space {
+        max-width: 0;
+    }
+
+    .overlay-text {
+        display: none;
+    }
+
+    .login-button {
+        margin-left: 15px;
+        flex: 1;
+        flex-grow: 1;
+    }
+    
+    .signup-button {
+        margin-right: 15px;
+        flex: 1;
+    }
+
+    .overlay-buttons {
+        display: flex;
+        max-width: 691px;
+    }
+}
+
