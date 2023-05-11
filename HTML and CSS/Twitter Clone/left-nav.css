@@ -1,0 +1,74 @@
+.left-nav {
+    border-right: solid;
+    border-right-color: rgb(236, 229, 229);
+    border-right-width: 1px;
+
+    padding-top: 14px;
+    padding-left: 48px;
+
+    position: fixed;
+    top: 0;
+    bottom: 0px;
+    width: 238px;
+}
+
+.logo {
+    width: 28px;
+    padding-left: 14px;
+}
+.explore-box {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    display: flex;
+    align-items: center; 
+}
+
+.explore-button {
+    display: flex;
+    align-items: center; 
+    border-radius: 50px;
+    padding: 8px 25px 8px 10px;
+
+    transition: background-color 0.5s;
+}
+.explore-button:hover {
+    cursor: pointer;
+    background-color: rgb(212, 207, 207);
+}
+
+.hashtag {
+    width: 30px;
+    margin-right: 20px;
+}
+
+.explore-text {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.settings-box {
+    display: flex;
+    align-items: center;
+}
+
+.settings-button {
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    padding: 8px 25px 8px 10px;
+
+    transition: background-color 0.5s;
+}
+.settings-button:hover {
+    cursor: pointer;
+    background-color: rgb(212, 207, 207);;
+}
+
+.settings-icon {
+    width: 25px;
+    margin-right: 25px;
+}
+
+.settings-text {
+    font-size: 18px;
+}

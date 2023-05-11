@@ -1,5 +1,5 @@
 .signup-overlay {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
@@ -16,9 +16,6 @@
     flex: 1;
 }
 
-@media (min-width: 1150px) {
-    
-}
 .overlay-text {
     margin-right: 490px;
 }
