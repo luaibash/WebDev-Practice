@@ -1,6 +1,6 @@
 .left-nav {
     border-right: solid;
-    border-right-color: rgb(236, 229, 229);
+    border-right-color: rgba(236, 229, 229,0.5);
     border-right-width: 1px;
 
     padding-top: 14px;
@@ -9,20 +9,31 @@
     position: fixed;
     top: 0;
     bottom: 0px;
-    width: 238px;
+    width: 268px;
+
+    display: flex;
+    flex-direction: row;
 }
 
+.nav-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-box {
+    display: flex;
+}
 .logo {
     width: 28px;
     padding-left: 14px;
 }
+
 .explore-box {
     margin-top: 7px;
     margin-bottom: 7px;
     display: flex;
     align-items: center; 
 }
-
 .explore-button {
     display: flex;
     align-items: center; 
@@ -61,7 +72,7 @@
 }
 .settings-button:hover {
     cursor: pointer;
-    background-color: rgb(212, 207, 207);;
+    background-color: rgb(212, 207, 207);
 }
 
 .settings-icon {

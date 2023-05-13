@@ -8,38 +8,85 @@
     <link rel="stylesheet" href="overlay.css">
     <link rel="stylesheet" href="general.css">
     <link rel="stylesheet" href="left-nav.css">
+    <link rel="stylesheet" href="right-nav.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav class="left-nav">
-        <div>
-            <img class="logo" src="Icons/logo.svg">
-        </div>
-        <div class="explore-box">
-            <div class="explore-button">
-                <div>
-                    <img class="hashtag" src="Icons/hashtag.svg">
-                </div>
-                <div class="explore-text">
-                    Explore
+        <div class="nav-content">
+            <div class="logo-box">
+                <img class="logo" src="Icons/logo.svg">
+            </div>
+            <div class="explore-box">
+                <div class="explore-button">
+                    <div>
+                        <img class="hashtag" src="Icons/hashtag.svg">
+                    </div>
+                    <div class="explore-text">
+                        Explore
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="settings-box">
-            <div class="settings-button">
-                <div>
-                    <img class="settings-icon" src="Icons/settings.svg">
-                </div>
-                <div class="settings-text">
-                    Settings
+            <div class="settings-box">
+                <div class="settings-button">
+                    <div>
+                        <img class="settings-icon" src="Icons/settings.svg">
+                    </div>
+                    <div class="settings-text">
+                        Settings
+                    </div>
                 </div>
             </div>
-        </div>
-        <div>
         </div>
     </div>
+
+    <nav class="right-nav">
+        <div class="signup-box">
+            <div class="signup-title">
+                New to Twitter?
+            </div>
+            <div class="signup-description">
+                Sign up now to get your own  personalized timeline!
+            </div>
+            <button class="google-button">
+                <img class="button-logo" src="Icons/google.svg">
+                Sign up with Google
+            </button>
+            <button class="nav-button">
+                <img class="button-logo" src="Icons/apple.svg">
+                Sign up with Apple
+            </button>
+            <button class="nav-button">
+                Create account
+            </button>
+            <div class="signup-info">
+                By signing up, you agree to the 
+                <span class="blue-highlight">Terms of Service</span>
+                and
+                <span class="blue-highlight">Privacy Policy</span>, including
+                <span class="blue-highlight">Cookie Use.</span>
+            </div>
+        </div>
+        <div class="terms-info">
+            <div class="first-terms">
+                <span class="gray-highlight">Terms of Service</span> 
+                <span class="gray-highlight">Privacy Policy</span>
+                <span class="gray-highlight">Cookie Policy</span>
+            </div>
+            <div>
+                <span class="gray-highlight">Accessibility</span> 
+                <span class="gray-highlight">Ads info</span>
+                <span class="more">More</span>
+                <span class="ellipsis">&#8943;</span>
+
+                &#169;
+                2023 X Corp.
+
+            </div>
+        </div>
+    </nav>
 
     <div class="signup-overlay">
         <div class="space"></div>
