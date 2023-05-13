@@ -59,8 +59,7 @@
     font-size: 14px;
     color: rgb(60, 64, 67);
 
-    transition: background-color 0.5s;
-    transition: border-color 0.5s;
+    transition: background-color 0.5s, border-color 0.5s;
 }
 .google-button:hover {
     cursor: pointer;
@@ -93,8 +92,7 @@
     font-weight: bold;
     color: rgb(60, 64, 67);
 
-    transition: background-color 0.5s;
-    transition: border-color 0.5s;
+    transition: background-color 0.5s, border-color 0.5s;
 }
 .nav-button:hover {
     cursor: pointer;

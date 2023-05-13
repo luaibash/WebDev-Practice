@@ -1,0 +1,35 @@
+header {
+    position: fixed;
+    left: 317px;
+    right: 436px;
+    top: 0;
+    height: 53px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    z-index: 1;
+    backdrop-filter: blur(10px);
+}
+header:hover {
+    cursor: pointer
+}
+
+.explore {
+    font-weight: bold;
+    font-size: 20px;
+    margin-left:18px;
+}
+
+.header-setting {
+    width: 18px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 14px;
+
+    transition: background-color 0.5s;
+}
+.header-setting:hover {
+    background-color: rgba(212, 207, 207,0.5);
+}

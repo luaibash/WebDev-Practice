@@ -1,0 +1,155 @@
+main {
+    display: grid;
+    grid-template-rows: 608px 608px 608px;
+    margin: 53px 436px 80px 317px;
+}
+
+.post {
+    padding: 15px 18px 24px 14px;
+    display: flex;
+
+    border-bottom: solid;
+    border-bottom-color: rgba(236, 229, 229,0.5);
+    border-bottom-width: 1px;
+
+    transition: background-color 0.3s;
+}
+.post:hover {
+    background-color: rgba(212, 207, 207,0.2);
+    cursor: pointer;
+}
+
+.profile-pic {
+    width: 47px;
+    height: 47px;
+    border-radius: 100px;
+    margin-right: 12px;
+}
+
+.post-content {
+    display: flex;
+    flex-direction: column;
+
+    font-size: 15px;
+}
+
+.profile-info {
+    display: flex;
+    position: relative;
+}
+
+.profile-name {
+    font-weight: bold;
+}
+.profile-name:hover,
+.time:hover {
+    text-decoration: underline;
+}
+
+.checkmark {
+    width: 16px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.true-profile-name {
+    color: rgb(83, 100, 113);
+}
+
+.expand {
+    position: absolute;
+    right: -2px;
+    top: -10px;
+
+
+    padding: 7px 10px 7px 10px;
+    border-radius: 100px;
+
+    transition: background-color 0.5s, border-color 0.5s;
+}
+.expand:hover {
+    color: blue;
+    background-color: lightblue;
+}
+
+.post-description {
+    color: rgb(15, 20, 25);
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.post-picture {
+    width: 504px;
+    height: 489px;
+    border-radius: 15px;
+    margin-bottom: 7px;
+}
+
+.post-stats {
+    display: flex;
+    align-items: center;
+}
+
+.reply,
+.retweet,
+.like,
+.view {
+    display: flex;
+    align-items: center;
+
+    margin-right: 25px;
+    color: rgb(83, 100, 113);
+    font-size: 14px;
+
+    transition: color 0.15s;
+}
+
+.reply-button,
+.like-button,
+.view-button,
+.share-button {
+    width: 17px;
+    padding: 9px;
+    margin-right: 5px;
+    border-radius: 20px;
+
+    transition: background-color 0.5s;
+}
+
+.reply:hover {
+    color: rgb(29, 155, 240);
+}
+.reply:hover .reply-button {
+    background-color: rgba(187, 235, 250, 0.5);
+}
+
+.retweet-button {
+    width: 20px;
+    padding: 9px 7px 9px 7px;
+    margin-right: 5px;
+    border-radius: 20px;
+}
+.retweet:hover {
+    color: rgb(45, 230, 91);
+}
+.retweet:hover .retweet-button {
+    background-color: rgba(187, 250, 187, 0.5);
+}
+
+.like:hover {
+    color: rgb(233, 8, 139);
+}
+.like:hover .like-button {
+    background-color: rgba(233, 8, 139, 0.1);
+}
+
+.view:hover {
+    color: rgb(29, 155, 240);
+}
+.view:hover .view-button {
+    background-color: rgba(187, 235, 250, 0.5);
+}
+
+.share-button:hover {
+    background-color: rgba(187, 235, 250, 0.5);
+}
